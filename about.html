@@ -127,7 +127,20 @@
               </h2>
             </div>
             <p>
-             
+              Untuk mengirim data ke serial monitor pada ESP32, bisa menggunakan fungsi "Serial.print()" atau "Serial.println()". Berikut contoh programnya:
+            </p>
+            <p>
+              void setup() {
+  Serial.begin(9600); // Mulai Serial Monitor dengan baud rate 9600
+}
+
+void loop() {
+  Serial.println("Hello, World!"); // Mengirim pesan "Hello, World!" ke Serial Monitor
+  delay(1000); // Tunggu selama 1 detik
+}
+            </p>
+            <p>
+              
             </p>
           </div>
         </div>
